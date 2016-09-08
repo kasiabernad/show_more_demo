@@ -1,6 +1,6 @@
 GIT
   remote: git://github.com/kasiakasprzak/show_more.git
-  revision: 45d55111e2f41fb2c1ac38d8d3eece64345a3eeb
+  revision: 740b37f7fe7fd49dcacde7c8e0b44fa1e19ceff8
   specs:
     show_more (0.1.0)
       ransack

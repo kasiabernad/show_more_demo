@@ -1,0 +1,221 @@
+/* line 1, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+body {
+  background-color: #fff;
+  color: #333;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 9, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+p, ol, ul, td {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+}
+
+/* line 15, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+pre {
+  background-color: #eee;
+  padding: 10px;
+  font-size: 11px;
+}
+
+/* line 21, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+a {
+  color: #000;
+}
+/* line 24, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+a:visited {
+  color: #666;
+}
+/* line 28, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+a:hover {
+  color: #fff;
+  background-color: #000;
+}
+
+/* line 35, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+div.field, div.actions {
+  margin-bottom: 10px;
+}
+
+/* line 40, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+#notice {
+  color: green;
+}
+
+/* line 44, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
+
+/* line 50, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation {
+  width: 450px;
+  border: 2px solid red;
+  padding: 7px;
+  padding-bottom: 0;
+  margin-bottom: 20px;
+  background-color: #f0f0f0;
+}
+/* line 58, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation h2 {
+  text-align: left;
+  font-weight: bold;
+  padding: 5px 5px 5px 15px;
+  font-size: 12px;
+  margin: -7px;
+  margin-bottom: 0px;
+  background-color: #c00;
+  color: #fff;
+}
+/* line 69, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/scaffolds.scss */
+#error_explanation ul li {
+  font-size: 12px;
+  list-style: square;
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/* line 4, /Users/kasiakasprzak/.rvm/gems/ruby-2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_box-sizing.scss */
+html {
+  box-sizing: border-box;
+}
+
+/* line 9, /Users/kasiakasprzak/.rvm/gems/ruby-2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_box-sizing.scss */
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+/* line 21, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.header {
+  padding: 10px;
+  margin: 0 30px;
+}
+
+/* line 26, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.button-container {
+  text-align: center;
+}
+
+/* line 31, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.button a {
+  text-decoration: none;
+  font-size: 1rem;
+  background-color: #52c4cc;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  padding: 0 20px;
+  display: inline-block;
+}
+
+/* line 43, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element {
+  background: white;
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.12);
+  border-radius: 6px;
+  position: relative;
+  margin-bottom: 30px;
+}
+/* line 51, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element figure {
+  background: #474038;
+  margin: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+/* line 56, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element figure .ratio {
+  display: block;
+  width: 100%;
+  padding-top: 50%;
+}
+/* line 66, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element .info .category-kind > span {
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  line-height: 24px;
+  text-transform: uppercase;
+  padding: 0 5px;
+  display: block;
+  position: relative;
+  float: left;
+  height: 25px;
+  color: #fff;
+}
+/* line 80, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element .info .category-kind > span.kind {
+  background: #52c4cc;
+  max-width: 100%;
+  margin-right: 5px;
+  overflow: hidden;
+}
+/* line 89, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element .info h3 {
+  font-size: 0.875rem;
+  line-height: 2.4em;
+}
+/* line 92, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element .info h3 a {
+  color: #474038;
+}
+/* line 98, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element.standard.challenge {
+  padding-bottom: 30px;
+}
+/* line 100, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.element.standard.challenge .info {
+  padding: 25px 25px 53px;
+  height: 100px;
+  position: relative;
+}
+
+/* line 108, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.five-column {
+  display: block;
+}
+/* line 20, /Users/kasiakasprzak/.rvm/gems/ruby-2.3.0/gems/neat-1.8.0/app/assets/stylesheets/mixins/_clearfix.scss */
+.five-column::after {
+  clear: both;
+  content: "";
+  display: block;
+}
+/* line 110, /Users/kasiakasprzak/projects/testapp/app/assets/stylesheets/application.css.scss */
+.five-column .column {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 14.70196%;
+}
+/* line 89, /Users/kasiakasprzak/.rvm/gems/ruby-2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_span-columns.scss */
+.five-column .column:last-child {
+  margin-right: 0;
+}
+/* line 78, /Users/kasiakasprzak/.rvm/gems/ruby-2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_omega.scss */
+.five-column .column:nth-child(5n) {
+  margin-right: 0;
+}
+/* line 83, /Users/kasiakasprzak/.rvm/gems/ruby-2.3.0/gems/neat-1.8.0/app/assets/stylesheets/grid/_omega.scss */
+.five-column .column:nth-child(5n+1) {
+  clear: left;
+}
