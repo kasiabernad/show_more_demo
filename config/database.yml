@@ -15,5 +15,4 @@ test:
   database:  kasiakasprzak_test_testapp
 
 production:
-  <<: *development
-  database:  kasiakasprzak_prod_testapp
+  url: <%= ENV['DATABASE_URL'] %>
