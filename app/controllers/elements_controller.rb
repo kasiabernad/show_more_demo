@@ -1,11 +1,11 @@
 class ElementsController < ApplicationController
   before_action :set_element, only: [:show, :edit, :update, :destroy]
   protect_from_forgery only: :index
-  
+
   include ShowMore::ControllerHelpers
 
   def index
-    collection_with_limit(5, Element)
+    collection_with_limit(3, Element)
   end
 
 
