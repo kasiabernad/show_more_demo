@@ -1,0 +1,113 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bourbon";
+ @import "neat";
+ @import "neat-helpers";
+
+ .header {
+   padding: 10px;
+  margin: 0 30px;
+ }
+
+ .button-container {
+   text-align: center;
+ }
+
+ .button {
+   a {
+    text-decoration: none;
+    font-size: rem(16px);
+    background-color: #52c4cc;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 4px;
+    padding: 0 20px;
+    display: inline-block;
+   }
+  }
+
+ .element {
+
+   background: white;
+   box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.12);
+   border-radius: 6px;
+   position: relative;
+   margin-bottom: 30px;
+
+   figure {
+     background: #474038;
+     margin: 0;
+     @include border-top-radius(8px);
+
+     .ratio {
+       display: block;
+       width: 100%;
+       padding-top: 50%;
+     }
+   }
+
+   .info {
+     .category-kind {
+
+       > span {
+
+         @include border-right-radius(5px);
+         @include border-left-radius(5px);
+         font-size: rem(12px);
+         font-weight: 500;
+         line-height: 24px;
+         text-transform: uppercase;
+         padding: 0 5px;
+         display: block;
+         position: relative;
+         float: left;
+         height: 25px;
+         color: #fff;
+         &.kind {
+           background: #52c4cc;
+           max-width: 100%;
+           margin-right: 5px;
+           overflow: hidden;
+         }
+       }
+     }
+
+     h3 {
+       font-size: rem(14px);
+       line-height: 2.4em;
+       a {
+         color: #474038;
+       }
+     }
+   }
+
+   &.standard.challenge {
+     padding-bottom: 30px;
+     .info {
+       padding: 25px 25px 28px+25px;
+       height: 100px;
+       position: relative;
+     }
+   }
+ }
+
+ .five-column {
+  @include row();
+  .column {
+    @include span-columns(2);
+    @include omega(5n);
+  }
+}
